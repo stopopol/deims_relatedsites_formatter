@@ -43,11 +43,10 @@ class DeimsRelatedsitesFormatter extends FormatterBase {
 		$ul_string = $ul_string . '<li><a href="' . "/" . $item->entity->field_deims_id->value . '">' . $item->entity->get('title')->value . '</a></li>';
     }
 
-	$elements = [
-		'#markup' => "<ul>". $ul_string . "</ul>",
-	];
-
-    return $elements;
+    if ($ul_string == "") {
+	return [];
+    }
+    else return ['#markup' => "<ul>". $ul_string . "</ul>"];
 
   }
 	
