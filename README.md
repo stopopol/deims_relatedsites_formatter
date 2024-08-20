@@ -1,2 +1,2 @@
 # Custom Formatter for the DEIMS.ID field
-Drupal 8 Field Formatter for the deims.id field
+Drupal 10/11 Field Formatter for formatting related sites using the deims.id field
