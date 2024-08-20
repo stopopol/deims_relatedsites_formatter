@@ -1,0 +1,7 @@
+{
+    "name": "stopopol/deims_relatedsites_formatter",
+    "description": "for formatting related sites using the deims.id field",
+    "type": "drupal-module",
+    "homepage": "https://github.com/stopopol/deims_relatedsites_formatter"
+}
+
